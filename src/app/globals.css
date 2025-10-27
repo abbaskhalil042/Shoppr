@@ -4,6 +4,11 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+    --color-primary-bg: var(--primary-bg);
+  --color-secondary-bg: var(--secondary-bg);
+  --color-accent: var(--accent);
+  --color-text: var(--text);
+  --color-background: var(---custom-background);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
@@ -44,6 +49,13 @@
 }
 
 :root {
+  --primary-bg: #F7C6C7;    /* Soft Pink */
+  --secondary-bg: #E8A87C;  /* Peachy Orange */
+  --accent: #C85A5A;        /* Raspberry */
+  --text: #4a2c2a;          /* Dark Brown */
+
+  --custom-background: #fef9f7;    /* Vanilla White */
+
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
@@ -79,6 +91,12 @@
 }
 
 .dark {
+  --primary-bg: #F7C6C7;    /* Soft Pink */
+  --secondary-bg: #E8A87C;  /* Peachy Orange */
+  --accent: #C85A5A;        /* Raspberry */
+  --text: #4a2c2a;          /* Dark Brown */
+
+  --custom-background: #4a2c2a;
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.205 0 0);
@@ -119,4 +137,7 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.burn-bg {
 }
