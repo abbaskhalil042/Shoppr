@@ -22,7 +22,7 @@ const Hero = () => {
       </div>
 
       {/* Content Container */}
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-10 px-6 md:px-12 lg:px-20 xl:px-28">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-10 px-6">
         {/* Heading Section */}
         <div className="flex flex-col gap-16 w-full md:w-[50%] text-center md:text-left">
           <div>
