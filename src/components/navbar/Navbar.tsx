@@ -64,17 +64,17 @@ const Navbar = () => {
     <section className="flex items-center justify-between px-2">
       <div>
         <Image
-          src="/assets/logo.png"
+          src="/assets/logo-2.png"
           alt="logo"
           title="New Global Bakers"
           width={100}
           height={100}
           loading="lazy"
-          className="object-contain"
+          className="object-contain mix-blend-multiply"
         />
       </div>
 
-        <NavigationMenu className="relative">
+      <NavigationMenu className="relative">
         <NavigationMenuList className="flex-wrap relative">
           <NavigationMenuItem>
             <NavigationMenuTrigger>Home</NavigationMenuTrigger>
@@ -214,7 +214,8 @@ const Navbar = () => {
 
       <div>
         <Button className="group bg-secondary-bg rounded-full px-4 py-4 cursor text-text cursor-pointer hover:text-white">
-          Order Now <ArrowRight className="group-hover:translate-x-0.5 transition-all duration-300" />
+          Order Now{" "}
+          <ArrowRight className="group-hover:translate-x-0.5 transition-all duration-300" />
         </Button>
       </div>
     </section>

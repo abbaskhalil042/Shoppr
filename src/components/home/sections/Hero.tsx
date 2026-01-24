@@ -54,12 +54,12 @@ const Hero = () => {
         {/* Hero Image */}
         <div className="hero-image w-full md:w-[45%] flex justify-center md:justify-end">
           <Image
-            src="/assets/homepage/bakery-removebg-preview.png"
+            src="/assets/homepage/hero.png"
             width={500}
             height={500}
             loading="lazy"
             alt="bakery shop"
-            className="w-full max-w-[450px] lg:max-w-[500px] xl:max-w-[550px] object-contain"
+            className="w-full max-w-[450px] mix-blend-burn lg:max-w-[500px] xl:max-w-[550px] object-contain"
           />
         </div>
       </div>

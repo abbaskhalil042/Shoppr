@@ -4,7 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-    --color-primary-bg: var(--primary-bg);
+  --color-primary-bg: var(--primary-bg);
   --color-secondary-bg: var(--secondary-bg);
   --color-accent: var(--accent);
   --color-text: var(--text);
@@ -49,12 +49,12 @@
 }
 
 :root {
-  --primary-bg: #F7C6C7;    /* Soft Pink */
-  --secondary-bg: #E8A87C;  /* Peachy Orange */
-  --accent: #C85A5A;        /* Raspberry */
-  --text: #4a2c2a;          /* Dark Brown */
+  --primary-bg: #f7c6c7; /* Soft Pink */
+  --secondary-bg: #e8a87c; /* Peachy Orange */
+  --accent: #c85a5a; /* Raspberry */
+  --text: #4a2c2a; /* Dark Brown */
 
-  --custom-background: #fef9f7;    /* Vanilla White */
+  --custom-background: #fef9f7; /* Vanilla White */
 
   --radius: 0.625rem;
   --background: oklch(1 0 0);
@@ -91,10 +91,10 @@
 }
 
 .dark {
-  --primary-bg: #F7C6C7;    /* Soft Pink */
-  --secondary-bg: #E8A87C;  /* Peachy Orange */
-  --accent: #C85A5A;        /* Raspberry */
-  --text: #4a2c2a;          /* Dark Brown */
+  --primary-bg: #f7c6c7; /* Soft Pink */
+  --secondary-bg: #e8a87c; /* Peachy Orange */
+  --accent: #c85a5a; /* Raspberry */
+  --text: #4a2c2a; /* Dark Brown */
 
   --custom-background: #4a2c2a;
   --background: oklch(0.145 0 0);
@@ -139,5 +139,6 @@
   }
 }
 
-.burn-bg {
+.font-playfair {
+  font-family: var(--font-playfair);
 }
